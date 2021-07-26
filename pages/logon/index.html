@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="bg-img"></div>
+    <div class="logo">
+        <img src="../../assets/logo1.png" alt="">
+    </div>
+    <div class="title-text">
+        <h2>用前段</h2>
+        <p>让用户有更好的体验</p>
+    </div>
+    <div class="form-box">
+        <div class="head-text">
+            <h2>欢迎注册</h2>
+            <div>已有账号？<a href="../login/index.html">登录</a></div>
+        </div>
+        <form class="logon-from">
+            
+            <div class="input-content">
+                <label for="userName">用户名：</label>
+                <input type="text" id="userName">
+                <div class="tips">设置后不可更改，中英文均可，最长14个英文或7个汉字</div>
+                <p class="errorTips"></p>
+            </div>
+            <div class="input-content">
+                <label for="account">账户：</label>
+                <input type="text" id="account">
+            </div>
+            <div class="input-content">
+                <label for="passwd">密码：</label>
+                <input type="password" id="passwd">
+            </div>
+            <div class="input-content">
+                <label for="repasswd">确认密码：</label>
+                <input type="password" id="repasswd">
+            </div>
+            <input id="submit" type="submit" value="注册">
+        </form>
+    </div>
+
+    <script src="../../tools/ajax.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

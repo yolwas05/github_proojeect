@@ -1,0 +1,70 @@
+@import url(../../assets/styles/reset.css);
+.bg-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -225px;
+    margin-top: -175px;
+}
+
+.wrapper .img-box {
+    /* height: 70px; */
+    width: 450px;
+}
+
+.wrapper .img-box img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.wrapper > form > input {
+    display: block;
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    margin: 40px auto;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.wrapper > form > .btn-box {
+    width: 245px;
+    margin: 0 auto;
+}
+
+.wrapper > form .btn-box > * {
+    float: left;
+    /* padding: 10px 20px; */
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.wrapper > form .btn-box > input {
+    background-color: #40a9ff;
+    outline: none;
+    border: none;
+    margin-right: 45px;
+}
+
+.wrapper > form .btn-box > a {
+    background-color: #67c23a;
+    /* text-decoration: none; */
+}

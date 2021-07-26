@@ -1,0 +1,130 @@
+@import url(../../assets/styles/reset.css);
+
+.bg-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 45px;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.title-text {
+    position: absolute;
+    top: 300px;
+    left: 190px;
+    color: #fff;
+}
+
+.title-text > h2 {
+    font-size: 60px;
+}
+
+.title-text > p {
+    font-size: 34px;
+}
+
+.form-box {
+    width: 480px;
+    height: 680px;
+    position: absolute;
+    right: 140px;
+    top: 50%;
+    margin-top: -340px;
+    background-color: rgb(255, 255, 255, .9);
+    border-radius: 20px;
+}
+
+.form-box > .head-text {
+    margin-top: 56px;
+    margin-left: 35px;
+    margin-bottom: 65px;
+    font-weight: bold;
+}
+
+.form-box > .head-text h2 {
+    font-size: 40px;
+}
+
+.form-box > .head-text div > a {
+    color: #2e58fe;
+}
+
+.form-box > form > div {
+    margin-bottom: 40px;
+    margin-right: 32px;
+    text-align: right;
+    line-height: 40px;
+    position: relative;
+}
+
+/* .form-box > form > div > label {
+    line
+} */
+
+.form-box > form > div > input {
+    width: 330px;
+    height: 20px;
+    outline-color: #2e58fe;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#submit {
+    display: block;
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #3f89ec;
+    border-radius: 25px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.tips {
+    position: absolute;
+    top: -45px;
+    left: 90px;
+    width: 360px;
+    height: 45px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background-image: url(../../assets/check-username-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 35px;
+    display: none;
+}
+
+.form-box form .active {
+    border-color: #f55;
+}
+
+.form-box form .errorTips {
+    position: absolute;
+    top: 32px;
+    left: 100px;
+    color: #f55;
+    font-size: 14px;
+}
+
+
+
